@@ -1,0 +1,60 @@
+table tr {
+  font-size: 1.6rem;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #323232;
+}
+th,
+td {
+  padding: 1.6rem;
+}
+th {
+  background: rgba(0, 0, 0, 0.3);
+}
+tr:nth-of-type(2n) {
+  background: rgba(0, 0, 0, 0.08);
+}
+.table-sortable th {
+  cursor: pointer;
+}
+.table-sortable .th-sort-asc::after {
+  content: "\25b4";
+}
+.table-sortable .th-sort-desc::after {
+  content: "\25be";
+}
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+  margin-left: 5px;
+}
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+  background: rgba(0, 0, 0, 0.1);
+}
+.Anchor{
+  background-color:firebrick;
+}
+ .Anchor:nth-of-type(2n){
+  background-color: red;
+} 
+.Senior{
+  background-color: blueviolet;
+}
+ .Senior:nth-of-type(2n){
+  background-color: purple;
+} 
+.Associate{
+  background-color: midnightblue;
+}
+ .Associate:nth-of-type(2n){
+  background-color: blue;
+} 
+.Junior{
+  background-color:darkgreen;
+}
+ .Junior:nth-of-type(2n){
+  background-color: green;
+} 
